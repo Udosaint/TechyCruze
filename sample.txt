@@ -1,0 +1,21 @@
+
+sample success
+
+{"request_id":"00195778-ec65-484d-a1c6-70a3a4eb923a","status":"accepted","created_at":"2023-07-06T18:13:14.838850"}
+
+
+url error
+{"detail":[{"loc":["body","message_globals","report_url"],"msg":"URL host invalid, top level domain required","type":"value_error.url.host"}]}
+
+sms sample
+Hello From Itodo
+We Love You
+
+
+{"request_id":"0013e045-1148-4c03-99c9-8ec528370967","status":"accepted","created_at":"2023-07-06T18:36:52.016524"}
+
+
+
+
+sample for status report
+{"request_id":"00195778-ec65-484d-a1c6-70a3a4eb923a","total_recipients":1,"channel":"sms","messages":[{"msg_id":"c74d4db4-1c28-11ee-8547-0242ac140023","country":"NG","recipient":"+2348158836278","status":"sent","number_of_sms":1,"sms_cost":0.16,"schedule_time":null}],"request_stage":"processed"}

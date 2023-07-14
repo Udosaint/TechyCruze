@@ -22,7 +22,7 @@ define("SITE", "Techycruze");
 
 define("SITE_EMAIL", "info@".SITE_ADDRESS);
 
-define('TOKEN', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoLWJhY2tlbmQ6YXBwIiwic3ViIjoiMmNhOWRlZGYtNzE1Mi00YzBhLWJmOGMtZmM5NzY1MmRmZmFkIn0.v1BPaRn9EYJ9wGm9E9cHn1UUlHX5_5yGEjvGLGh82dg');
+define('TOKEN', '');
 
 
 
@@ -48,4 +48,3 @@ catch(PDOException $e)
     //====================================================================================================================================================
 
     define("ACTIVE_LINK","dashboard");
-?>
